@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parth Sharma | Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 10. Interactive Navigation -->
+  <header class="navbar">
+    <div class="logo">&lt;/&gt; Parth <span>Sharma</span></div>
+    <nav id="nav-menu">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#hobbies" class="nav-link">Hobbies</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+    <!-- 9. Dark Mode & Light Mode Toggle -->
+    <button id="theme-toggle" aria-label="Toggle Theme">☀️ Light</button>
+    <button id="menu-btn" class="mobile-menu-btn">☰</button>
+  </header>
+
+  <!-- 1. Home Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="avatar-box">
+        <!-- Replace src with your own photo file (e.g., profile.jpg) if desired -->
+        <div class="avatar-placeholder">PS</div>
+      </div>
+      <div class="hero-text">
+        <p class="greeting">Welcome to my portfolio website!</p>
+        <h1>Hi, I'm <span>Parth Sharma</span></h1>
+        <h3>First-Year Computer Science Student</h3>
+        <p class="hero-desc">Exploring full-stack web development, data structures, and building practical software projects. Learn Today, Lead Tomorrow.</p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn primary-btn">About Me &rarr;</a>
+          <a href="#projects" class="btn secondary-btn">View Projects &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. About Me Section -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="card about-card">
+      <h3>A Passionate Web & Software Developer</h3>
+      <p>
+        I'm Parth Sharma, a First-Year Computer Science student at Bosscoder School of Technology (in affiliation with S-VYASA, Bengaluru). 
+        I enjoy building clean, functional web applications, working with databases, and solving algorithmic problems in Java and Python.
+      </p>
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <strong>Area of Interest</strong>
+          <span>Full-Stack Web Development & Backend Systems</span>
+        </div>
+        <div class="highlight-item">
+          <strong>Personal Goal</strong>
+          <span>Become a skilled Software Engineer & build scalable products</span>
+        </div>
+        <div class="highlight-item">
+          <strong>Location</strong>
+          <span>Bengaluru, Karnataka, India</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Education Section -->
+  <section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="grid-2">
+      <div class="card">
+        <span class="badge">2026 – Present</span>
+        <h3>B.Tech / Undergraduate in Computer Science</h3>
+        <p class="institution">Bosscoder School of Technology (S-VYASA University, Bengaluru)</p>
+        <p>First-Year Student focusing on Web Development, Data Structures & Algorithms, Linear Algebra, Python, and Java.</p>
+      </div>
+      <div class="card">
+        <span class="badge">Completed</span>
+        <h3>Senior Secondary Education (Class XII)</h3>
+        <p class="institution">Science & Mathematics Stream</p>
+        <p>Strong foundation in Mathematics, Physics, and Computer Science fundamentals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Skills Section -->
+  <section id="skills" class="section">
+    <h2 class="section-title">My Skills</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar">
+          <div class="skill-info"><span>HTML5</span><span>90%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>CSS3 (Flexbox & Grid)</span><span>85%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>JavaScript</span><span>75%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 75%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Python & Java</span><span>80%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 80%;"></div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Non-Technical & Core Skills</h3>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Problem Solving</span><span>85%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Teamwork & Collaboration</span><span>90%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Communication</span><span>85%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-info"><span>Git & GitHub Version Control</span><span>80%</span></div>
+          <div class="progress"><div class="progress-fill" style="width: 80%;"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Projects Section -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid-3">
+      <div class="card project-card">
+        <div class="project-banner">EdTech Admin Portal</div>
+        <h3>EdTech Course Management Portal</h3>
+        <p>A full-stack dashboard for managing courses, video lectures, live schedules, and study materials.</p>
+        <p class="tech-tags">HTML • CSS • JavaScript • Supabase</p>
+        <button class="btn small-btn" onclick="openProjectModal('EdTech Course Management Portal', 'Built an administrative portal with role-based access to organize course modules, upload study notes, and manage student schedules.')">View Details</button>
+      </div>
+
+      <div class="card project-card">
+        <div class="project-banner">Log Ranker CLI/Web</div>
+        <h3>Hackathon Log-Aggregation Tool</h3>
+        <p>A log-parsing utility created during an engineering hackathon to group and rank 10,000+ raw server log lines.</p>
+        <p class="tech-tags">Python • Data Structures • Web UI</p>
+        <button class="btn small-btn" onclick="openProjectModal('Hackathon Log-Aggregation Tool', 'Collaborated in a team hackathon to parse large raw log files, automatically group recurring errors, and rank critical issues by frequency.')">View Details</button>
+      </div>
+
+      <div class="card project-card">
+        <div class="project-banner">Web Dev Lab</div>
+        <h3>13-Module Web Development Lab</h3>
+        <p>A structured collection of 13 practical exercises covering Git workflows, semantic HTML5, Flexbox, and CSS Grid.</p>
+        <p class="tech-tags">HTML5 • CSS3 • Git • GitHub</p>
+        <button class="btn small-btn" onclick="openProjectModal('13-Module Web Development Lab', 'Implemented semantic bio pages, design tokens, sticky navigation overlays, newspaper layouts, and responsive grids.')">View Details</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Hobbies and Interests Section -->
+  <section id="hobbies" class="section">
+    <h2 class="section-title">Hobbies & Interests</h2>
+    <div class="grid-3">
+      <div class="card hobby-card">
+        <div class="hobby-icon">💪</div>
+        <h3>Strength & Bodyweight Training</h3>
+        <p>Practicing push-up variations, grip strength, and arm wrestling training routines.</p>
+      </div>
+      <div class="card hobby-card">
+        <div class="hobby-icon">🎮</div>
+        <h3>Competitive Strategy Gaming</h3>
+        <p>Designing optimized base layouts and competitive attack strategies in Clash of Clans.</p>
+      </div>
+      <div class="card hobby-card">
+        <div class="hobby-icon">💻</div>
+        <h3>Exploring Tech & Content Creation</h3>
+        <p>Experimenting with new developer tools, UI design, and short-form tech videos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Achievements Section -->
+  <section id="achievements" class="section">
+    <h2 class="section-title">Achievements</h2>
+    <div class="grid-2">
+      <div class="card">
+        <span class="badge">2026</span>
+        <h3>Engineering Hackathon Participant</h3>
+        <p>Built and presented a functional log-parsing and incident-ranking application under tight hackathon deadlines.</p>
+      </div>
+      <div class="card">
+        <span class="badge">2026</span>
+        <h3>Admission & Technical Assessment Qualifier</h3>
+        <p>Cleared national-level entrance assessments and technical interviews for undergraduate Computer Science studies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Contact Section -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <div class="grid-2">
+      <div class="card">
+        <h3>Get In Touch</h3>
+        <p>Feel free to reach out for project collaborations, hackathons, or web development discussions.</p>
+        <ul class="contact-links">
+          <li><strong>Email:</strong> <a href="mailto:parthssharma916@gmail.com">parthssharma916@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/parthssharma916-code" target="_blank">github.com/parthssharma916-code</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com" target="_blank">linkedin.com/in/parth-sharma</a></li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn primary-btn">Send Message</button>
+          <p id="form-feedback" class="feedback-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Details Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeProjectModal()">&times;</span>
+      <h3 id="modal-title">Project Title</h3>
+      <p id="modal-desc">Project description goes here.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Parth Sharma | Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
